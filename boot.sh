@@ -22,4 +22,4 @@ qemu-system-x86_64 -machine accel=kvm -m 512 \
                    -drive file=my-${IMAGE_NAME} \
                    -cdrom userdata.img -nographic \
                    -device e1000,netdev=network0,mac=52:55:00:d1:55:09 \
-                   -netdev tap,id=network0,ifname=tap0,script=no,downscript=no
+                   -netdev user,id=network0

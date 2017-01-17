@@ -11,10 +11,15 @@ deployments.
 
 ## Usage
 
-First things first.  Install prerequisite programs and download the
-latest Ubuntu Xenial disk image:
+First things first.  Install prerequisite programs:
 
     $ ./init.sh
+
+And now download the latest Ubuntu Xenial disk image:
+
+    $ ./update.sh
+
+You can re-run this step at any time to retrieve the latest image.
 
 Next customize the userdata.txt file.
 
