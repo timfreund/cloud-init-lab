@@ -1,0 +1,6 @@
+#cloud-config
+password: thisisterrible
+chpasswd: { expire: False }
+ssh_pwauth: False
+ssh_authorized_keys:
+    - ssh-rsa YOU_SHOULD_PUT_YOUR_PUBLIC_KEY_HERE
